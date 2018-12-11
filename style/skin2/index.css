@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 451058 */
+  src: url('//at.alicdn.com/t/font_451058_7zssp1z7y7b.eot');
+  src: url('//at.alicdn.com/t/font_451058_7zssp1z7y7b.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_451058_7zssp1z7y7b.woff') format('woff'),
+  url('//at.alicdn.com/t/font_451058_7zssp1z7y7b.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_451058_7zssp1z7y7b.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon{
+  color: crimson;
+}
+
+.icon-i1::before { content: "\e624"; }
+.icon-i2::before { content: "\e627"; }
+.icon-i3::before { content: "\e628"; }
+
+#top-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 86px;
+  background-image: url('https://www.pngarts.com/files/1/Header-PNG-Photo.png');
+  background-size: 100% auto;
+  color: #fff;
+}
+#top-header #change-skin {
+  float: right;
+  margin-right: 150px;
+}
+#top-header #hide {
+  border: solid 1px #eee;
+  border-top-style: none;
+  background-color: #3d86c7;
+  z-index: 100;
+  width: 100px;
+  margin-right: 10px;
+}
+.diaplay {
+  display: none;
+}
+.active {
+  background: #78b9f2;
+}
+#top-header:after {
+  height: 0;
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#body-content {
+  margin-top: 90px;
+}
+#body-content #slidebar {
+  width: 500px;
+  float: left;
+  background: #3d86c7;
+}
+#body-content #content {
+  margin-left: 500px;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3d86c7;
+}
